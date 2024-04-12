@@ -19,7 +19,7 @@ main:
 
 ciclo_inserimenti:
     li $v0, 12 # legge 1 char
-    syscall # system call (risultatoin $v0)
+    syscall # system call (risultato in $v0)
 
     sb $v0, ($t0)
     add $t1, $t1, 1
