@@ -1,3 +1,5 @@
 {
-    "discord.enabled": false
+    "discord.enabled": false,
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 800
 }
